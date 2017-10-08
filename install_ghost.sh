@@ -80,7 +80,7 @@ server {
 }
 
 EOF
-  if [ ! -f "/etc/ssl/dhparam2048.pem 2048"]; then
+  if [ ! -f "/etc/ssl/dhparam2048.pem 2048" ]; then
     openssl dhparam -outform PEM -out dhparam2048.pem 2048
   fi
 else
