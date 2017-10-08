@@ -271,3 +271,5 @@ if [ "$CONFIGURE_SYSTEMD" = "y" ]; then
   configure_ghostuser
   configure_systemd
 fi
+
+echo "All installation steps complete!"
